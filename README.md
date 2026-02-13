@@ -29,5 +29,8 @@ This repository implements an Indonesian sentiment analysis pipeline using **TF-
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
-
-
+```
+### Start Server
+```bash
+uvicorn main:app --reload
+```
